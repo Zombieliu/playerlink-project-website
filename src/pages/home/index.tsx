@@ -199,13 +199,13 @@ export default function Home() {
         <div className="min-h-screen ">
             <header>
                 <Popover className="relative ">
-                    <div className="flex  fixed z-40 inset-x-0 bg-black bg-opacity-0 md:bg-opacity-75 justify-between items-center p-5 sm:px-6 md:justify-start md:space-x-10 lg:px-20 ">
+                    <div className="flex  fixed z-40 inset-x-0 bg-black  bg-opacity-75 justify-between items-center p-3 md:p-3 sm:px-6 md:justify-start md:space-x-10 lg:px-32 ">
                         <div className="flex justify-start lg:w-0 lg:flex-1">
                             <a href="home">
                                 <span className="sr-only">Workflow</span>
                                 <img
                                     className=" w-auto h-8"
-                                    src="/Playerlink1.svg"
+                                    src="https://cdn.discordapp.com/attachments/897398778166906911/918367143777673216/viewfile.png"
                                     alt=""
                                 />
                             </a>
@@ -234,12 +234,12 @@ export default function Home() {
 
                     <Transition
                         as={Fragment}
-                        enter="duration-200 ease-out"
-                        enterFrom="opacity-0 scale-95"
-                        enterTo="opacity-100 scale-100"
-                        leave="duration-100 ease-in"
-                        leaveFrom="opacity-100 scale-100"
-                        leaveTo="opacity-0 scale-95"
+                        enter="transition ease-out duration-100"
+                        enterFrom="transform opacity-0 scale-95"
+                        enterTo="transform opacity-100 scale-100"
+                        leave="transition ease-in duration-75"
+                        leaveFrom="transform opacity-100 scale-100"
+                        leaveTo="transform opacity-0 scale-95"
                     >
                         <Popover.Panel
                             focus
@@ -252,7 +252,7 @@ export default function Home() {
                                             <a href="home">
                                                 <img
                                                     className="h-8 w-auto"
-                                                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                                                    src="https://cdn.discordapp.com/attachments/897398778166906911/918367494304038982/viewfile.png"
                                                     alt="Workflow"
                                                 /></a>
                                         </div>
@@ -341,9 +341,9 @@ export default function Home() {
                                 <div className=" text-blue-600 text-3xl  ">
                                     Our Vision
                                 </div>
-                                <div  className="flex justify-center justify-end">
+                                <div  className="flex justify-center justify-end my-3">
                                         <img
-                                            className="w-48  " src="https://cdn.discordapp.com/attachments/897398778166906911/916731990269644902/11.png" alt=""/>
+                                            className="w-auto h-12  " src="https://cdn.discordapp.com/attachments/897398778166906911/918369386992128010/viewfile.png" alt=""/>
 
                                 </div>
                                 <div className="text-white  md:text-xl xl:text-3xl mb-5 font-black">
@@ -647,10 +647,10 @@ export default function Home() {
                             </div>
                             <div className="mt-5 md:flex justify-center">
                                 <input type="text"
-                                       className="bg-gray-600 text-lg rounded-full p-6  w-10/12 md:w-5/12 border hover:border-indigo-500 "
+                                       className="bg-gray-600 text-lg rounded-full p-3 md:p-6  w-9/12 lg:w-8/12 xl:w-5/12 border hover:border-indigo-500 "
                                        placeholder="Email"/>
                                 <p className="flex justify-center text-center text-base font-medium text-gray-500">
-                                    <button  className="text-lg whitespace-nowrap inline-flex items-center md:-ml-44 md:mt-1 md:mb-1 mt-6 py-3 px-24 justify-center md:px-10  border border-transparent rounded-full shadow-sm text-base font-medium text-black bg-white transform duration-500 hover:shadow-2xl "
+                                    <button  className="text-lg whitespace-nowrap border-2 border-yellow-400 inline-flex items-center md:-ml-44 md:mt-1 md:mb-1 mt-6 py-3 px-24 justify-center md:px-10  border border-transparent rounded-full shadow-sm text-base font-medium text-black bg-white transform duration-500 hover:shadow-2xl "
                                     >
                                         Subscribe
                                     </button>

@@ -185,7 +185,6 @@ export default function Home() {
     const bgCryptoEmpire=()=>{
       Setbgstudios("https://cdn.discordapp.com/attachments/897398778166906911/900033418979594280/1.jpg")
 
-
     }
     const bgConstellation=()=>{
         Setbgstudios("https://web3games.org/_next/image?url=%2Fstudios%2Fconstellation-bg.jpg&w=1920&q=75")
@@ -373,7 +372,7 @@ export default function Home() {
                                     </h1>
                                     <div className=" flex flex-wrap  justify-center md:justify-between pt-5 " >
                                         {twotext.map((item)=>(
-                                            <a key={item.h1} href={item.h1}  >
+                                            <a key={item.h1} href={item.h1} >
                                             <div  className="relative bg-black rounded-lg w-80 h-72 md:w-72  mb-14 transform duration-700 hover:shadow-2xl hover:-translate-y-3  ">
 
                                                 <div>
@@ -387,7 +386,7 @@ export default function Home() {
                             </div>
                         </div>
                 {/*        Protocol*/}
-                        <div id="Protocol" className="transition delay-300 duration-300">
+                        <div id="Protocol" className="transition-all delay-300 duration-300">
                             <div className="bg-black">
                                 <div className="py-20 text-center text-xl text-white px-6 md:px-12 xl:px-96">
                                     <h1 className="text-blue-300 xl:text-2xl">Web3Games Protocol</h1>
